@@ -1,0 +1,20 @@
+#menu {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul li {
+    background-color: #3B3B3B;
+}
+
+#menu a {
+    color: white;
+    display: block;
+    padding: 1em;
+    text-align: center;
+    font-size: 3em;
+    pointer-events: none;
+}
+

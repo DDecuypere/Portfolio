@@ -1,8 +1,22 @@
+html, body {
+  height: 100vh;
+}
+
 body {
-  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;*/
-  /*-moz-osx-font-smoothing: grayscale;*/
-  -webkit-font-smoothing: antialiased;
+  font-family: "Audiowide", sans-serif !important;
+  -moz-osx-font-smoothing: grayscale; /*anti-aliasing for firefox (MacOS)*/
+  -webkit-font-smoothing: antialiased; /*anti-aliasing for other (MacOS)*/
   background-color: #292929;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: none;
+}
+
+a {
+  text-decoration: none;
 }
