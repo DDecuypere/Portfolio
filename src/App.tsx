@@ -1,11 +1,12 @@
 import React from 'react';
 import './css/App.css';
+import Menu from './components/menu';
 
 function App() {
   return (
-    <div className="App">
-        <h1>Welcome!</h1>
-    </div>
+    <main>
+      <Menu />
+    </main>
   );
 }
 
