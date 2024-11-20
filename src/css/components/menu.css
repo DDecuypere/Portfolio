@@ -6,8 +6,13 @@
 }
 
 /*menu item styling*/
-#menu ul li {
-    background-color: #3B3B3B;
+@keyframes blink {
+    0%,15% { visibility: hidden; }
+   16%,100% { visibility: visible; }
+}
+
+#menu ul {
+    outline: none;
 }
 
 #menu a {
@@ -17,5 +22,14 @@
     text-align: center;
     font-size: 3em;
     pointer-events: none;
+    visibility: visible;
 }
+
+.menu-selected {
+    animation-name: selected-animation;
+    animation: blink 1.5s infinite;
+    animation-fill-mode:both;
+    background-color: #3B3B3B;
+}
+
 
