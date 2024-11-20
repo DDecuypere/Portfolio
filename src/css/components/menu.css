@@ -3,16 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    outline: none;
 }
 
 /*menu item styling*/
 @keyframes blink {
     0%,15% { visibility: hidden; }
    16%,100% { visibility: visible; }
-}
-
-#menu ul {
-    outline: none;
 }
 
 #menu a {

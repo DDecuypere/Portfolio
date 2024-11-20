@@ -25,8 +25,8 @@ export default function Menu(){
 
     //could potentially load the components dynamically by iterating over an array
     return (
-        <section id='menu'>
-            <ul ref={menuRef} onKeyDown={handleKeyPress} onKeyUp={handleKeyPress} tabIndex={0}>
+        <section id='menu' ref={menuRef} onKeyDown={handleKeyPress} onKeyUp={handleKeyPress} tabIndex={0}>
+            <ul>
                 <MenuItem name='Start' href='/' selected={selected === 0} />
                 <MenuItem name='About' href='/' selected={selected === 1}/>
                 <MenuItem name='Games' href='/' selected={selected === 2}/>
