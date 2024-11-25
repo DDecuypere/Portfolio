@@ -1,8 +1,4 @@
 #menu {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     outline: none;
 }
 
@@ -29,4 +25,8 @@
     background-color: #4bfc05;
 }
 
-
+@media screen and (max-height: 500px) {
+    #menu a {
+        font-size: 1.5em;
+    }
+}
