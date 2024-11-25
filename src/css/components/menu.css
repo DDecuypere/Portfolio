@@ -26,7 +26,7 @@
     animation-name: selected-animation;
     animation: blink 1.5s infinite;
     animation-fill-mode:both;
-    background-color: #3B3B3B;
+    background-color: #4bfc05;
 }
 
 

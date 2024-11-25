@@ -1,12 +1,17 @@
+@font-face {
+  font-family: "Firacode-Regular";
+  src: url('../fonts/FiraCode-Regular.ttf');
+}
+
 html, body {
   height: 100vh;
 }
 
 body {
-  font-family: "Audiowide", sans-serif !important;
+  font-family: "Firacode-Regular" !important;
   -moz-osx-font-smoothing: grayscale; /*anti-aliasing for firefox (MacOS)*/
   -webkit-font-smoothing: antialiased; /*anti-aliasing for other (MacOS)*/
-  background-color: #292929;
+  background-color: #000000;
 }
 
 #root {
