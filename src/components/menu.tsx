@@ -3,6 +3,7 @@ import MenuItem from './menuItem';
 import './../css/components/menu.css';
 
 
+
 export default function Menu(){
     //save state of selected item his index
     const [selected, setSelected] = useState<number>(0);
@@ -22,8 +23,11 @@ export default function Menu(){
             setSelected((prev) => (prev - 1 + AMOUNT_OF_MENU_ITEMS) % AMOUNT_OF_MENU_ITEMS);
         } else if(e.key === 'ArrowUp') {
             setSelected((prev) => (prev + 1) % AMOUNT_OF_MENU_ITEMS);
+        } else if (e.key === 'Enter') {
+            
         }
     }
+
 
     useEffect(() => {
         menuRef.current?.focus();
