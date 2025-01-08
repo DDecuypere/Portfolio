@@ -1,4 +1,4 @@
-#menu {
+nav {
     outline: none;
 }
 
@@ -8,7 +8,8 @@
    16%,100% { visibility: visible; }
 }
 
-#menu a {
+nav li {
+    outline: none;
     color: white;
     display: block;
     padding: 1em;
@@ -26,7 +27,7 @@
 }
 
 @media screen and (max-height: 500px) {
-    #menu a {
+    nav li {
         font-size: 1.5em;
     }
 }
